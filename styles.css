@@ -78,3 +78,29 @@ button {
     color: white;
     border-width: 0px;
 }
+
+.info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 36px;
+    font-family: roboto;
+}
+
+.info-title {
+    font-size: 36px;
+    font-weight: 900;
+    padding: 24px 0;
+    color: #1F2937;
+}
+
+.card-container {
+    display: flex;
+    gap: 12px;
+    padding: 24px 0;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+}
