@@ -23,6 +23,8 @@ body {
     color: #F9FAF8;
     size: 24px;
     font-weight: 600;
+    width: 250px;
+    flex-wrap: wrap;
 }
 
 .header-links {
@@ -40,6 +42,7 @@ a {
     font-size: 48px;
     font-weight: 900;
     color: #F9FAF8;
+    width: 300px;
 }
 
 .subtext {
@@ -48,7 +51,7 @@ a {
 
 .image {
     height: 300px;
-    width: 750px;
+    width: 700px;
     background-color: aqua;
     margin-left: auto;
 }
@@ -63,7 +66,15 @@ a {
     flex-direction: column;
     height: auto;
     height: 300px;
-    width: 300px;
+    width: 500px;
     flex-wrap: wrap;
-    gap: 12px;
+    gap: 18px;
+}
+
+button {
+    width: 90px;
+    border-radius: 8px;
+    background-color: #3882F6;
+    color: white;
+    border-width: 0px;
 }
